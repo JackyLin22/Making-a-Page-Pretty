@@ -1,72 +1,58 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prof Alex's INST377 Labs</title>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mapstyle.css" />
 
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>Hello World!</title>
-
-    <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- The website JavaScript file -->
-    <script src="/script.js" defer></script>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+ integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+ crossorigin=""></script>
   </head>
   <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
     <div class="wrapper">
-      <div class="content" role="main">
-        <h1 class="title">Hello World!</h1>
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-        <div class="instructions">
-          <h2>Using this project</h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out the code in the editor and open
-            the <span class="fileopener" data-file="TODO.md" data-line="0"
-              >TODO</span> for next steps!
-          </p>
-          <!--  🚧 TODO: ADD BUTTON HERE -->
+      <header class="header"><h1>Prof A's Restaurant Demo</h1></header>
+      <!-- wrapper -->
+      <div class="container">
+        <!-- container -->
+        <div class="left_section box">
+          <!-- left inputs -->
+          <h2>Form Inputs</h2>
+          <form action="/api" class="box main_form">
+            <div>
+              <label for="resto">Filter By Restaurant Name</label>
+              <input type="text" name="resto" id="resto">
+            </div>
+            <button type="submit">Change List</button>
+            <!-- This looks empty but is a load animation! -->
+            <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+          </form>
+        </div>
+        <div class="right_section box">
+          <!-- right side -->
+          <!-- images box -->
+          <h2>Local Restaurant Map</h2>
 
-          <!-- Once you've added the button from TODO.md, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
+          <div id="map" class="box"></div>
+          <div class="box" id="restaurant_list">
+            <!-- description box -->
+            A list of restaurants from an API
+          </div>
         </div>
       </div>
+      <footer class="footer">
+        YOUR GITHUB ACCOUNT NAME
+        <a href="https://github.com/aleitch1">Your Github Account</a>
+      </footer>
     </div>
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
-    </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
