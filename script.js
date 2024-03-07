@@ -46,10 +46,6 @@ function injectHTML(list) {
     const str = `<li>${item.name} </li>`;
     target.innerHTML += str;
   });
-  
-  list.find((item) )
-  
-  
 }
 
 function processRestaurants(list) {
