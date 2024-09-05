@@ -195,7 +195,7 @@ CLASS DECLARATIONS
 */
 .footer a:hover {
   /* Hue, saturation, luminosity, alpha */
-  background-color: hsla(0, 0%, 90%, 0.15);
+  background-color: hsla(0, 0%, 90%, 1);
   /* red, green, blue, alpha */
   text-decoration: none;
 }
