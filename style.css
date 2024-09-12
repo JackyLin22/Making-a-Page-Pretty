@@ -50,7 +50,7 @@ body {
   font-family: Sans-serif; /*  This is an example of a custom CSS property  */
   margin: 0;
   padding: 0;
-  background-color: rgb(70, 190, 255);
+  background-color: rgb(70, 190, 215);
   color: rgb(255, 255, 55);
 }
 
@@ -107,6 +107,10 @@ CLASS DECLARATIONS
 
 
 .header {
+  font-family: "Ewert", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;
 }
 
 
