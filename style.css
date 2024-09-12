@@ -131,7 +131,7 @@ CLASS DECLARATIONS
   margin:0; /* removing the margin on h1 tags means the header pins to the top */
 
   /* box-shadows are fancy */
-  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  /*box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);*/
 }
 
 /*
@@ -181,6 +181,7 @@ CLASS DECLARATIONS
 
   font-size: 1.2rem;
   font-weight: 600;
+  
 }
 
 .footer a {
@@ -194,13 +195,13 @@ CLASS DECLARATIONS
 */
 .footer a:hover {
   /* Hue, saturation, luminosity, alpha */
-  background-color: hsla(0, 0%, 90%, 0.15);
+  background-color: hsla(25, 50%, 100%, 0.15);
   /* red, green, blue, alpha */
   text-decoration: none;
 }
 
 .subtitle {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(20, 0, 0, 1);
   margin: 0px;
   margin-bottom: 5px;
 }
