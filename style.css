@@ -32,7 +32,7 @@ START Lab Basic Page Styles
 
 html {
   background-color: var(--color-bg);
-  font-size: 18px;
+  font-size: 16px;
   min-width: 300px;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -50,8 +50,8 @@ body {
   font-family: Sans-serif; /*  This is an example of a custom CSS property  */
   margin: 0;
   padding: 0;
-  background-color: rgb(75, 230, 245);
-  color: rgb(255, 80, 60);
+  background-color: rgb(122, 156, 198);
+  color: rgb(211, 15, 75);
 }
 
 
@@ -195,13 +195,13 @@ CLASS DECLARATIONS
 */
 .footer a:hover {
   /* Hue, saturation, luminosity, alpha */
-  background-color: hsla(0, 0%, 90%, 1);
+  background-color: hsla(0, 0%, 90%, 0.15);
   /* red, green, blue, alpha */
   text-decoration: none;
 }
 
 .subtitle {
-  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 0.8);
   margin: 0px;
   margin-bottom: 5px;
 }
