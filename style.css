@@ -110,7 +110,7 @@ CLASS DECLARATIONS
   font-family: "Ewert", serif;
   font-weight: 400;
   font-style: normal;
-  color: red;
+  color: rgb(225, 55, 95);
   display: flex;
   text-align: center;
 }
