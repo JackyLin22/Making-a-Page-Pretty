@@ -206,13 +206,13 @@ CLASS DECLARATIONS
 */
 .footer a:hover {
   /* Hue, saturation, luminosity, alpha */
-  background-color: hsla(25, 80%, 100%, 0.15);
+  background-color: hsla(75, 80%, 100%, 0.15);
   /* red, green, blue, alpha */
   text-decoration: none;
 }
 
 .subtitle {
-  color: rgba(0, 75, 0, 1);
+  color: rgba(20, 75, 0, 1);
   margin: 0px;
   margin-bottom: 5px;
 }
