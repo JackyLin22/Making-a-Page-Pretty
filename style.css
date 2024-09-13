@@ -50,7 +50,7 @@ body {
   font-family: Sans-serif; /*  This is an example of a custom CSS property  */
   margin: 0;
   padding: 0;
-  background-color: rgb(70, 190, 215);
+  background-color: rgb(80, 190, 205);
   color: rgb(255, 255, 55);
 }
 
@@ -112,7 +112,7 @@ CLASS DECLARATIONS
   font-style: normal;
   color: red;
   display: flex;
-  padding: 5;
+  text-align: center;
 }
 
 
@@ -241,4 +241,11 @@ form label {
 
   display: block; /* this turns the label text into a box we can set margins on */
   margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 736px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 }
