@@ -103,6 +103,7 @@ CLASS DECLARATIONS
   justify-content: space-evenly;
   align-items: start;
   flex:1;
+  gap: 2rem;
 }
 
 
@@ -111,9 +112,7 @@ CLASS DECLARATIONS
   font-weight: 400;
   font-style: normal;
   color: rgb(225, 55, 95);
-  display: flex;
-  text-align: center;
-  width: fit-content;
+  
 }
 
 
@@ -136,9 +135,10 @@ CLASS DECLARATIONS
   font-size: 1.5rem;
   padding: 1.25rem;
   margin:0; /* removing the margin on h1 tags means the header pins to the top */
-
+  text-align: center;
   /* box-shadows are fancy */
-  /*box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);*/
+  
+  
 }
 
 /*
@@ -159,10 +159,10 @@ CLASS DECLARATIONS
 }
 
 .left_section {
-  flex: 0 1 auto;
+  max-width: 100%;
+  flex: 1 1 100%;
   margin: 1rem;
   padding: 1.5rem;
-  /*box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);*/
   box-shadow: 0px 0px 15px #000000;
   border-radius: 1em;
 }
@@ -170,11 +170,10 @@ CLASS DECLARATIONS
 .right_section {
   display: flex;
   flex-direction: column;
-  flex: 1 2 auto;
+  flex: 1 1 100%;
   margin: 1rem;
   align-items: center;
   justify-content: center;
-  /*box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);*/
   box-shadow: 0px 0px 15px #000000;
   border-radius: 1em;
 }
