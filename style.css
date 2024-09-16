@@ -136,7 +136,7 @@ CLASS DECLARATIONS
   padding: 1.25rem;
   margin:0; /* removing the margin on h1 tags means the header pins to the top */
   text-align: center;
-  /* box-shadows are fancy */
+  background-color: rgb(12, 25, 33);
   
   
 }
@@ -179,7 +179,8 @@ CLASS DECLARATIONS
 }
 
 img {
-  width: 300px;
+  max-width: 500px;
+  height: auto;
   margin: 2rem 0;
   text-align: center;
 }
@@ -197,6 +198,7 @@ img {
   font-size: 1.2rem;
   font-weight: 600;
   color: rgb(225, 55, 95);
+  text-align: center;
 }
 
 .footer a {
@@ -249,6 +251,8 @@ form label {
   margin-bottom: 0.5rem;
 }
 
+
+
 @media screen and (max-width: 736px) {
     .container {
     flex-direction: column;
@@ -266,8 +270,12 @@ form label {
   .header h1 {
     font-size: 1.5rem;
   }
-}
 
+  @media {
+    .left_section, .right_section {
+        flex: 1 1 45%;  
+    }
+  }
 @media (max-width: 480px) {
   .header h1 {
     font-size: 1.25rem;
@@ -276,6 +284,6 @@ form label {
   h2 {
     font-size: 1.5rem;
   }
-}
+ }
 
 }
