@@ -179,6 +179,10 @@ CLASS DECLARATIONS
   border-radius: 1em;
 }
 
+img {
+  width: 200px;
+  
+}
 
 /*
   This block is actually dependent on the "container" block having a flex set on it
@@ -245,21 +249,10 @@ form label {
   margin-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 836px) {
+@media screen and (max-width: 736px) {
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
   }
-  .box {
-    width: fit-content;
-    align-items: center;
-    justify-content: center;
-  }
-  .left_section {
-    display: auto;
-  }
-  .right_section {
-    display: auto;
-  }
+
 }
