@@ -250,7 +250,11 @@ form label {
     flex-direction: column;
   }
   .box {
-    width: 100vh;
-    padding: 2rem;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+  .left_section {
+    display: flex;
   }
 }
