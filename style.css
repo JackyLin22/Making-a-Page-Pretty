@@ -113,6 +113,7 @@ CLASS DECLARATIONS
   color: rgb(225, 55, 95);
   display: flex;
   text-align: center;
+  width: fit-content;
 }
 
 
@@ -244,10 +245,11 @@ form label {
   margin-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 836px) {
   .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
   }
   .box {
     width: fit-content;
@@ -258,6 +260,6 @@ form label {
     display: auto;
   }
   .right_section {
-    display: flex;
+    display: auto;
   }
 }
