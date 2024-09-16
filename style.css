@@ -255,6 +255,9 @@ form label {
     justify-content: center;
   }
   .left_section {
+    display: auto;
+  }
+  .right_section {
     display: flex;
   }
 }
