@@ -178,11 +178,15 @@ CLASS DECLARATIONS
   border-radius: 1em;
 }
 
-img {
-  max-width: 500px;
-  height: auto;
-  margin: 2rem 0;
+
+
+.center img{
+  display: block;
+  width: 500px;
+  justify-content: center;
   text-align: center;
+  border-radius: 5em;
+  margin: 2rem 0;
 }
 
 /*
@@ -238,6 +242,7 @@ form input {
   margin-bottom: 1rem;
   height: 2rem;
   border-radius: 4px;
+  display: block;
 }
 
 form label {
