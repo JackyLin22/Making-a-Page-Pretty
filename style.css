@@ -152,6 +152,7 @@ CLASS DECLARATIONS
 .box {
   width: fit-content;
   height: fit-content;
+  width: 80%;
   padding: 2rem;
   margin: 0 auto;
 }
@@ -278,8 +279,8 @@ form label {
     max-width: 100%;
   }
   
-  form input{
-    width: 300px;
+  box {
+    width: 80%;
   }
 }
 
