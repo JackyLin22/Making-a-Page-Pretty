@@ -157,7 +157,7 @@ CLASS DECLARATIONS
 }
 
 .left_section {
-  max-width: 100%;
+  width: 100%;
   flex: 1 1 100%;
   margin: 1rem;
   padding: 1.5rem;
@@ -166,6 +166,7 @@ CLASS DECLARATIONS
 }
 
 .right_section {
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex: 1 1 100%;
@@ -177,11 +178,12 @@ CLASS DECLARATIONS
 }
 
 img {
+  width: 500px;
   max-width: 100%;
   height: auto;
   flex-grow: 1;
   border-radius: 1em;
-  text-align: center;
+  align: center;
   padding: 2rem;
 }
 
