@@ -277,6 +277,10 @@ form label {
   .center {
     max-width: 100%;
   }
+  
+  form input{
+    width: 300px;
+  }
 }
 
 @media {
