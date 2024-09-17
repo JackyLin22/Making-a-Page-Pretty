@@ -270,7 +270,7 @@ form label {
 @media screen and (max-width: 736px) {
   .container {
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 
   .left_section, .right_section {
@@ -279,20 +279,6 @@ form label {
 
   .center {
     max-width: 100%;
-  }
-
-  .header h1 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .header h1 {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
   }
 }
 
