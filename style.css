@@ -183,7 +183,7 @@ img {
   height: auto;
   flex-grow: 1;
   border-radius: 1em;
-  align: center;
+  justify-items: center;
   padding: 2rem;
 }
 
