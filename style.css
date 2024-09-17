@@ -155,7 +155,6 @@ CLASS DECLARATIONS
   height: fit-content;
   padding: 2rem;
   margin: 0 auto;
-  
 }
 
 .left_section {
@@ -178,16 +177,23 @@ CLASS DECLARATIONS
   border-radius: 1em;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  flex-grow: 1;
+  border-radius: 1em;
+  text-align: center;
+  padding: 2rem;
+}
 
-
-.center img{
-  display: block;
-  width: 500px;
+.center .right_section {
+  display: flex;
   justify-content: center;
   text-align: center;
-  border-radius: 5em;
   margin: 2rem 0;
+  padding: 2em;
 }
+
 
 /*
   This block is actually dependent on the "container" block having a flex set on it
@@ -264,15 +270,15 @@ form label {
 
 @media screen and (max-width: 736px) {
   .container {
-  flex-direction: column;
-  gap: 1.5rem;
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
   .left_section, .right_section {
     flex: 1 1 100%;
   }
 
-  .image-section {
+  .center {
     max-width: 100%;
   }
 
