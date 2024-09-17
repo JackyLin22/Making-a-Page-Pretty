@@ -100,9 +100,9 @@ CLASS DECLARATIONS
 .container {
   margin: 0 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: start;
-  flex:1;
+  flex: 1;
   gap: 2rem;
 }
 
@@ -251,12 +251,16 @@ form label {
   margin-bottom: 0.5rem;
 }
 
-
+@media (min-width: 768px) {
+  .left_section, .right_section {
+      flex: 1 1 50%;
+  }
+}
 
 @media screen and (max-width: 736px) {
-    .container {
-    flex-direction: column;
-    gap: 1.5rem;
+  .container {
+  flex-direction: column;
+  gap: 1.5rem;
   }
 
   .left_section, .right_section {
@@ -270,20 +274,20 @@ form label {
   .header h1 {
     font-size: 1.5rem;
   }
+}
 
-  @media {
-    .left_section, .right_section {
-        flex: 1 1 45%;  
-    }
-  }
 @media (max-width: 480px) {
   .header h1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   h2 {
     font-size: 1.5rem;
   }
- }
+}
 
+@media {
+  .left_section, .right_section {
+      flex: 1 1 50%;  
+  }
 }
