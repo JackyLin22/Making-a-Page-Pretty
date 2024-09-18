@@ -269,6 +269,7 @@ form label {
   .container {
     flex-direction: column;
     gap: 1rem;
+    padding: 1rem;
   }
 
   .left_section, .right_section {
