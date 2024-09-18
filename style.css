@@ -179,18 +179,23 @@ CLASS DECLARATIONS
 }
 
 img {
-  width: 500px;
-  max-width: 100%;
+  width: 550px;
+  max-width: 100%; /* This ensures the image doesn't overflow its container */
   height: auto;
-  flex-grow: 1;
   border-radius: 1em;
-  justify-items: center;
   padding: 2rem;
+}
+
+.img-wrap {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .center .right_section {
   display: flex;
   justify-content: center;
+  place-items: center;
   text-align: center;
   margin: 2rem 0;
 }
@@ -285,6 +290,14 @@ form label {
   
   box {
     width: 80%;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .img-wrap {
+    display: flex;
   }
 }
 
