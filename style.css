@@ -302,8 +302,3 @@ form label {
   }
 }
 
-@media {
-  .left_section, .right_section {
-      flex: 1 1 50%;  
-  }
-}
