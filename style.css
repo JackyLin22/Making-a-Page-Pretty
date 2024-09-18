@@ -130,7 +130,6 @@ CLASS DECLARATIONS
   
 
   /* shapes */
-  border-radius: 6px;
   font-size: 1.5rem;
   padding: 1.25rem;
   margin:0; /* removing the margin on h1 tags means the header pins to the top */
@@ -182,8 +181,8 @@ img {
   width: 550px;
   max-width: 100%; /* This ensures the image doesn't overflow its container */
   height: auto;
-  border-radius: 1em;
-  padding: 2rem;
+  border-radius: 2em;
+  padding: 1rem;
 }
 
 .img-wrap {
@@ -208,18 +207,20 @@ img {
 */
 
 .footer {
+  display: block;
+  background-color: rgb(215, 25, 25);
   flex-shrink: 0;
-  padding: 1rem;
+  padding: 1.25rem;
   font-family: "Ewert", serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  color: rgb(255, 75, 55);
+  color: rgb(255, 255, 15);
   text-align: center;
 }
 
 .footer a {
   text-decoration: underline;
-  color: blue;
+  color: rgb(255, 255, 255);
 }
 
 /*
