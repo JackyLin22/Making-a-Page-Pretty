@@ -111,7 +111,7 @@ CLASS DECLARATIONS
   font-family: "Ewert", serif;
   font-weight: 400;
   font-style: normal;
-  color: rgb(255, 255, 15); 
+  color: rgb(255, 255,255); 
 }
 
 
@@ -134,7 +134,7 @@ CLASS DECLARATIONS
   padding: 1.25rem;
   margin:0; /* removing the margin on h1 tags means the header pins to the top */
   text-align: center;
-  background-color: rgb(215, 25, 25);
+  background-color: rgb(255, 0, 0);
   
   
 }
@@ -208,13 +208,13 @@ img {
 
 .footer {
   display: block;
-  background-color: rgb(215, 25, 25);
+  background-color: rgb(255, 0, 0);
   flex-shrink: 0;
   padding: 1.25rem;
   font-family: "Ewert", serif;
   font-size: 1.5rem;
   font-weight: 600;
-  color: rgb(255, 255, 15);
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
